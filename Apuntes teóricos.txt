@@ -1,0 +1,68 @@
+## 1. FUNDAMENTOS DE PROGRAMACIÓN EN JAVASCRIPT
+
+Variable: es un espacio de memoria que se hace al momento que la definimos.
+En JS el tipado es dinámico.
+
+La consola es un panel que muestra mensajes importantes, como errores, para
+desarroladores.
+Si queremos que las cosas aparezcan en nuestra pantalla, podemos imrimir o iniciar
+sesión en nuestra consola directamente.
+
+En JS, la palabra console se refiere a un objeto, una colección de datos y acciones
+que podemos usar en nuestro código. Las palabras clave son palabras que están incorporadas
+en el lenguaje JS, por lo que la computadora las reconocerá y las tratará especialemente.
+
+Una acción o método, que está integrado en el objeto de la consola es el metodo .log().
+Cuando escribimos console.log(), lo que ponemos dentro de los paréntesis se impimirá, o 
+se registraría, en la consola. 
+
+## 2. Introducción a HTML5-CSS3
+
+Etiquetas: (buscar más tipos de etiquetas en Internet)
+<div>: nos permite separar en bloques cierto contenido dentro de nuestra página.
+<hN>, donde 1<=N<=5: es utilizada para agregar títulos, siendo el N=1 el mas grande.
+<br>: salto de linea.
+<ul>, <li>: listas sin orden, ordenada con puntos.
+<ol>, <li>: lista con orden, ordenada por números.
+Cada elemento de HTML tiene atributos y cada elemento de etiqueta tiene estilo.
+
+En css (en el código, el archivo .css): 
+- Las clases empiezan con un . (punto)
+- Si quiero modificar todos los objetos de la página uso el *{}
+
+# 3. Sentencias 
+
+- El operador (===) se fija que ambos datos sean iguales, hasta su tipo de dato tienen que coincidir.
+	Ejemplo: 3 === 3 => TRUE
+		 3 === '3' => FALSE
+- El operador (==) se fija que ambos datos sean iguales.
+	Ejemplo: 3 == '3' => TRUE
+	  	 3 == 3 => TRUE
+
+# 4. Funciones
+
+Una función es una operación que te devuelve un valor.
+Puede no devolver un valor, pero siempre se crea una función para que te duvuelva algo.
+
+La diferencia entre undefined y null es que la primera existe un puntero apuntando a una variable
+sin valor y la segunda tambien existe un puntero apuntando a una variable con un valor de null.
+
+Inicializar la variable adentro del argumentod de una función se le llama ARGUMENTO POR DEFAULT.
+
+Template String: crear cadenas personalizadas. Va entre tildes invertidas (``) donde adentro la expresión
+personalizada que queremos mostrar comienza con un $ seguido de {}.
+
+# 5. Arreglos y objetos
+
+Los arrays en JavaScript son OBJETOS TIPO LISTA. Se pueden hacer recorridos y mutaciones sobre él.
+La longitud y los tipo de datos NO son fijos.
+Puede haber varios tipos de datos en un mismo array.
+
+# 6. DOM
+
+- getElementById(); getElementsByClassName(); getElementByTagName();
+Para modificar HMTL.
+
+- querySelector(); querySelectorAll();
+Para modificar CSS3.
+Los tres tipos de selectores son ID, Query's y etiquetas.
